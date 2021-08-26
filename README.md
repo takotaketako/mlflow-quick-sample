@@ -1,7 +1,5 @@
 # mlflow-quick-sample
 
-[[_TOC_]]
-
 ## Overview
 
 MLflow(Tracking)を動作させるサンプル。ローカルで動作させることを想定。
