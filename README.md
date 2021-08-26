@@ -12,7 +12,7 @@ python -m pip install -r requirements.txt
 
 ## Quick Sample
 
-以下を実行してhttp://localhost:5000にアクセスする。
+以下を実行して`http://localhost:5000`にアクセスする。
 
 ```
 cd sample
@@ -23,4 +23,5 @@ mlflow ui --host 0.0.0.0 --port 5000
 ## Reference
 
 * [MLflow Tracking](https://www.mlflow.org/docs/latest/tracking.html)
+* [MLflow Quickstart](https://www.mlflow.org/docs/latest/quickstart.html)
 * [MLflowで実験管理入門](https://future-architect.github.io/articles/20200626/)
