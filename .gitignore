@@ -133,3 +133,6 @@ dmypy.json
 
 # MLflow
 **/mlruns/
+
+# working dir
+work/

@@ -1,9 +1,13 @@
+"""
+基本的なAPIを利用したロギング
+"""
+
 import mlflow
 
 
 def main():
 
-    # set experiment
+    # set experiment (未指定の場合はDefaultが利用される)
     experiment_name: str = "test experiment"
     try:
         print(f"create experiment: {experiment_name}")
@@ -32,6 +36,7 @@ def main():
         print(f"logged artifacts")
 
     print(f"finish!!")
+
 
 if __name__ == "__main__":
     main()

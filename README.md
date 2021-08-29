@@ -4,6 +4,8 @@
 
 MLflow(Tracking)を動作させるサンプル。ローカルで動作させることを想定。
 
+パラメータやメトリクスをロギングしてMLflowのUIで確認するまでを実行する。
+
 ## Install
 
 ```
@@ -12,13 +14,11 @@ python -m pip install -r requirements.txt
 
 ## Quick Sample
 
-以下を実行して`http://localhost:5000`にアクセスする。
-
-```
-cd sample
-python mlflow_sample.py
-mlflow ui --host 0.0.0.0 --port 5000
-```
+1. `cd sample`
+1. `python mlflow_sample.py` (基本的なAPIを利用したロギング)
+1. `python mlflow_sample_lightgbm.py` (autologを利用したロギング)
+1. `mlflow ui --host 0.0.0.0 --port 5000` (UIの起動)
+1. `http://localhost:5000`にアクセス
 
 ## Reference
 
