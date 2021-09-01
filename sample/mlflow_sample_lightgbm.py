@@ -19,7 +19,7 @@ def main():
     data = fetch_openml(data_id=40945, as_frame=True)
 
     # X
-    df = data["data"]
+    df = data["data"].copy()
     # object to category
     col_object = list(df.select_dtypes(include=[object]).dtypes.index)
     df[col_object] = df.loc[:, col_object].astype("category")
