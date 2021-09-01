@@ -1,0 +1,12 @@
+lightgbm:
+  objective: binary
+  metric: binary
+  verbosity: -1
+  num_leaves: 31
+  max_depth: -1
+  min_data_in_leaf: 20
+  bagging_fraction: 1.0
+  bagging_freq: 0
+  feature_fraction: 1.0
+  lambda_l1: 0.0
+  lambda_l2: 0.0

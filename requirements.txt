@@ -3,3 +3,4 @@ lightgbm
 jupyter
 scikit-learn
 matplotlib
+hydra-core
