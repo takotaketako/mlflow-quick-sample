@@ -29,7 +29,6 @@ python -m pip install -r requirements.txt
 ## Note
 
 * lightgbmのデータに`category`の列が含まれていると`WARNING mlflow.lightgbm: Failed to infer model signature`が出力されるようである。
-* `set_tracking_uri()`のファイルパスの記述などは、環境に応じて多少変更が必要かもしれない。（Windowsで動作確認）
 
 ## Reference
 
